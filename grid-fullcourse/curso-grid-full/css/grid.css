@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grade{
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    grid-template-rows: repeat(3,1fr);
+    background: red;
+}
+
+.secao{
+    border: 1px solid #ccc;
+    row-gap: 3fr ;
+    column-gap: 3fr;
+}
+
+
+ .item{
+    border: 1px solid #ccc;
+    align-self: flex-start;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+    column-gap: 1fr;
+
+}
+
+
+
+
+

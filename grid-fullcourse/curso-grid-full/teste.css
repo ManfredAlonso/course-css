@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.grid-template-columns-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.item{
+    width: 1fr;
+    display: grid;
+    padding: 1px;
+    border: 1px;
+    background: rgba(0, 0, 0, 0.123);
+    gap: 1fr;
+}
